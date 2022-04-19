@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.services.ServiceRequestActivity"
+    android:background="@color/articles_background"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start_build_project"
+                style="@style/textView_purple_small_bold"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    style="@style/style_edittext_services"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:cardElevation="4dp">
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="@string/person_name"
+                        android:paddingEnd="@dimen/_10sdp"
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/style_edittext_services"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:cardElevation="4dp">
+
+                    <EditText
+                        android:id="@+id/et_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="@string/email"
+                        android:paddingEnd="@dimen/_10sdp"
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/style_edittext_services"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:cardElevation="4dp">
+
+                    <EditText
+                        android:id="@+id/et_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="@string/mobile"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:inputType="number"
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/style_edittext_services"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:cardElevation="4dp"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/et_organization"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="@string/organization"
+                        android:lines="4"
+                        android:paddingEnd="@dimen/_10sdp"
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/style_edittext_services"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:cardElevation="4dp"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/et_details_project"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="@string/details_project"
+                        android:lines="8"
+                        android:paddingEnd="@dimen/_10sdp"
+
+
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/btn_send_service_request"
+                    style="@style/button_purple_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:paddingStart="@dimen/_50sdp"
+                    android:paddingEnd="@dimen/_50sdp">
+
+                    <TextView
+                        style="@style/textView_white_small_bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/send_request" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:visibility="gone"
+            app:lottie_rawRes="@raw/loading" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

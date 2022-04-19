@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="end"
+    android:paddingTop="@dimen/_30sdp"
+    android:paddingBottom="@dimen/_10sdp"
+
+    >
+    <TextView
+        android:id="@+id/title_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="المدونة"
+       style="@style/textView_purple_large_bold"
+        android:layout_marginEnd="@dimen/_5sdp"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/back_button_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        app:cardCornerRadius="@dimen/_3sdp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/_10sdp"
+
+        >
+        <TextView
+            android:id="@+id/icon_button_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="navigate_next"
+            style="@style/icons_font"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

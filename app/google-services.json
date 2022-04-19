@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056876373116",
+    "project_id": "digital-75238",
+    "storage_bucket": "digital-75238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056876373116:android:3fd8ebe62409908f0095f9",
+        "android_client_info": {
+          "package_name": "sa.digo.digital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056876373116-tk20sp55dp57fhpdnpfrpcq6mov926ba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGqZivNQqTxt3e1sgu2eRpvnfSjBDx1R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056876373116-tk20sp55dp57fhpdnpfrpcq6mov926ba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
