@@ -10,10 +10,12 @@
         android:roundIcon="@drawable/logo"
         android:largeHeap="true"
         android:supportsRtl="false"
+
         android:theme="@style/Theme.Digital">
         <activity
             android:name=".ui.packages.DetailsPackagesActivity"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".ui.connect_us.ContactUsActivity"
             android:exported="false" />

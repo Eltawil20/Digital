@@ -42,7 +42,10 @@
                     <androidx.cardview.widget.CardView
                         style="@style/style_edittext_services"
                         android:layout_marginTop="@dimen/_15sdp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="4dp"
+                        android:backgroundTint="@color/white"
+
+                        >
 
                         <EditText
                             android:id="@+id/et_name"
@@ -58,7 +61,10 @@
                     <androidx.cardview.widget.CardView
                         style="@style/style_edittext_services"
                         android:layout_marginTop="@dimen/_15sdp"
-                        app:cardElevation="4dp">
+                        app:cardElevation="4dp"
+                        android:backgroundTint="@color/white"
+
+                        >
 
                         <EditText
                             android:id="@+id/et_email"
@@ -67,6 +73,8 @@
                             android:background="@null"
                             android:hint="@string/email"
                             android:paddingEnd="@dimen/_10sdp"
+                            android:backgroundTint="@color/white"
+
 
                             />
                     </androidx.cardview.widget.CardView>

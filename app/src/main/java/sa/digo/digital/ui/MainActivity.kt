@@ -1,17 +1,19 @@
 package sa.digo.digital.ui
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
-import sa.digo.digital.about_app.AboutCompany1Fragment
-import sa.digo.digital.about_app.AboutCompany2Fragment
-import sa.digo.digital.about_app.AboutCompany3Fragment
-import sa.digo.digital.about_app.AboutCompanyFragment
+import sa.digo.digital.ui.about_app.AboutCompany1Fragment
+import sa.digo.digital.ui.about_app.AboutCompany2Fragment
+import sa.digo.digital.ui.about_app.AboutCompany3Fragment
 import com.google.android.material.tabs.TabLayout
+import kotlinx.android.synthetic.main.activity_main.*
 import sa.digo.digital.R
+import sa.digo.digital.ui.home.HomeActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +36,10 @@ class MainActivity : AppCompatActivity() {
         viewPagerAdapter.addFragment(AboutCompany1Fragment())
         viewPagerAdapter.addFragment(AboutCompany2Fragment())
         viewPagerAdapter.addFragment(AboutCompany3Fragment())
-        viewPagerAdapter.addFragment(AboutCompanyFragment())
+//        viewPagerAdapter.addFragment(AboutCompanyFragment())
+        tv_Skip.setOnClickListener {
+            startActivity(Intent(this,HomeActivity::class.java))
+        }
 
 
         // Set Adapter for ViewPager

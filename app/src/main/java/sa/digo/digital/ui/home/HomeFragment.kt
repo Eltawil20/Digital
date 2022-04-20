@@ -179,7 +179,7 @@ open class HomeFragment : Fragment() {
                     }
                 }
             }
-            timer!!.schedule(timerTask, 3000, 3000)
+            timer!!.schedule(timerTask, 8000, 3000)
         }
     }
 

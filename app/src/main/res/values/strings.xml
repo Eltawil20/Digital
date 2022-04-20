@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">DigitalOnGo</string>
     <string name="made_with_love_in_diego">صنع بحب في ديجو</string>
+    <string name="detailsAbout1">محرك إبداعي يحلق في سماء الإبداع لنرتقي بشركائنا وأنشطتهم في فضاءات الإعلام الرقمي</string>
+    <string name="detailsAbout2">نحن معكم نساعدكم على صياغة المحتوى من بداية الفكرة وحتى الظهور لعملائكم ليحقق محتواكم أمثل نتائج على القنوات والمنصات الإعلامية</string>
+    <string name="detailsAbout3">العديد من الخدمات التي تخلق النجاح لكم</string>
     <string name="digital_marketing_company">شركة تسويق رقمي شركة تسويق رقمي</string>
     <string name="sign_in">تسجيل دخول</string>
     <string name="sign_in_with_google">تسجيل دخول بجوجل</string>
@@ -24,15 +27,11 @@
     <string name="enter_new_passwords_in_filed">أدخل كلمة السر الجديدة في الحقول</string>
     <string name="more_details">عرض التفاصيل</string>
     <string name="check_internet_connection">الرجاء التأكد من الاتصال بالانترنت</string>
-    <string name="array_services">array_services</string>
-    <string name="array_packages">array_packages</string>
-    <string name="array_sliders">array_sliders</string>
-    <string name="type">type</string>
+
     <string name="success">تم إضافة طلبك بنجاح</string>
     <string name="success_sending">تم إضافة طلبك بنجاح</string>
     <string name="error">الرجاء التواصل مع الدعم الفني</string>
-    <string name="type_service">type_service</string>
-    <string name="type_packages">type_packages</string>
+
     <string name="services">خدماتنا</string>
     <string name="the_services">الخدمات</string>
     <string name="articles">المقالات</string>
@@ -60,7 +59,16 @@
     <string name="order_now">إطلب الأن</string>
     <string name="link_not_work">الرابط لا يعمل</string>
     <string name="sending">جاري الإرسال</string>
-
+<!--    <string name="next">التالي</string>-->
+    <string name="skip">تخطي</string>
+<!--    static-->
+    <string name="array_services">array_services</string>
+    <string name="array_packages">array_packages</string>
+    <string name="array_sliders">array_sliders</string>
+    <string name="type_service">type_service</string>
+    <string name="type_packages">type_packages</string>
+    <string name="type">type</string>
+    <string name="first_open">first_open</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -45,18 +45,21 @@ class PackagesViewModel : ViewModel() {
             ) {
                 container.visibility=View.GONE
                 recPackages.visibility=View.VISIBLE
-                if (response!!.isSuccessful) {
-                    if (response.body()!!.success) {
-                        if (!response.body()!!.data.isNullOrEmpty()) {
-                            packagesLiveData!!.value = response.body()
-                            SessionManager(root.context).setObject(
-                                root.context.getString(R.string.array_packages),
-                                response.body()
-                            )
+                try {
+                    if (response!!.isSuccessful) {
+                        if (response.body()!!.success) {
+                            if (!response.body()!!.data.isNullOrEmpty()) {
+                                packagesLiveData!!.value = response.body()
+                                SessionManager(root.context).setObject(
+                                    root.context.getString(R.string.array_packages),
+                                    response.body()
+                                )
 
 
+                            }
                         }
                     }
+                } catch (e: Exception) {
                 }
             }
 

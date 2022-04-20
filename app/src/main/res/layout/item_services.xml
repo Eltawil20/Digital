@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="@dimen/_5sdp"
     android:layout_marginTop="@dimen/_7sdp"
+    android:backgroundTint="@color/white"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -17,6 +18,7 @@
         android:paddingBottom="@dimen/_4sdp"
         android:paddingStart="@dimen/_10sdp"
         android:paddingEnd="@dimen/_10sdp"
+
        >
 
 

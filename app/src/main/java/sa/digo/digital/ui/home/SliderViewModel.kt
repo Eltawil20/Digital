@@ -37,22 +37,25 @@ class SliderViewModel : ViewModel() {
             ) {
 //                root.loading.visibility= View.GONE
 
-                if (response!!.isSuccessful) {
-                    if (response.body()!!.success) {
-                        if (!response.body()!!.data.isNullOrEmpty()) {
+                try {
+                    if (response!!.isSuccessful) {
+                        if (response.body()!!.success) {
+                            if (!response.body()!!.data.isNullOrEmpty()) {
 
-                            try {
-                                sliderViewModel!!.value = response.body()
-                            } catch (e: Exception) {
+                                try {
+                                    sliderViewModel!!.value = response.body()
+                                } catch (e: Exception) {
+                                }
+                                SessionManager(root.applicationContext).setObject(
+                                    root.applicationContext.getString(R.string.array_sliders),
+                                    response.body()
+                                )
+
+
                             }
-                            SessionManager(root.applicationContext).setObject(
-                                root.applicationContext.getString(R.string.array_sliders),
-                                response.body()
-                            )
-
-
                         }
                     }
+                } catch (e: Exception) {
                 }
             }
 

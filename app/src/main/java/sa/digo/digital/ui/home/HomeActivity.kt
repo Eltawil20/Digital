@@ -12,6 +12,7 @@ import sa.digo.digital.ui.connect_us.ContactUsFragment
 import sa.digo.digital.ui.packages.PackagesFragment
 import sa.digo.digital.ui.services.ServicesFragment
 import sa.digo.digital.R
+import sa.digo.digital.util.SessionManager
 
 
 class HomeActivity : AppCompatActivity() {
@@ -19,6 +20,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         replaceFragment(HomeFragment())
+        SessionManager(applicationContext).setBoolean(getString(R.string.first_open),true)
 
         nav_home.setOnClickListener {
             replaceFragment(HomeFragment())

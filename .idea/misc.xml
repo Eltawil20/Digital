@@ -3,8 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/drawable/default_dot.xml" value="0.2115" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/drawable/selected_dot.xml" value="0.2115" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/drawable/tab_selector.xml" value="0.2115" />
         <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/activity_change_password.xml" value="0.175" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/activity_ok_change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/activity_service_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_about_company.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_about_company1.xml" value="0.2" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_about_company2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_about_company3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_articles.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_contact_us.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_home.xml" value="0.175" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_packages.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/fragment_services.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/item_articles.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Abdallah/AndroidStudioProjects/Digital/app/src/main/res/layout/item_services.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

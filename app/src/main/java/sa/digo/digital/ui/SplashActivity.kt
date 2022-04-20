@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.fragment_about_company.*
 import sa.digo.digital.ui.auth.LoginActivity
 import sa.digo.digital.ui.home.HomeActivity
 import sa.digo.digital.R
+import sa.digo.digital.util.SessionManager
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +30,14 @@ class SplashActivity : AppCompatActivity() {
 
 
         Handler().postDelayed(Runnable {
-            startActivity(Intent(this, HomeActivity::class.java))
+            if(SessionManager(applicationContext).getBoolean(getString(R.string.first_open))){
+                startActivity(Intent(this, HomeActivity::class.java))
+            }else{
+                startActivity(Intent(this, MainActivity::class.java))
+
+            }
+
+//            startActivity(Intent(this, HomeActivity::class.java))
             finish()
 //            startActivity(Intent(this, LoginActivity::class.java))
 //            startActivity(Intent(this, ServiceRequestActivity::class.java))

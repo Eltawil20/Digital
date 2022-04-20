@@ -1,4 +1,4 @@
-package sa.digo.digital.about_app
+package sa.digo.digital.ui.about_app
 
 import android.content.Intent
 import android.os.Bundle
